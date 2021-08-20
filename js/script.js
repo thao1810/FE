@@ -33,12 +33,12 @@ $(document).ready(function() {
     
 });
 
-// $(document).ready(function() {
-//     $('.list-icon li').hover(function(){
-//         $(this).css("background-color", "#dd2f31");
-//         }, function(){
-//         $(this).css("background-color", "white");
-//       });
-// });
+$(document).ready(function() {
+    $('.list-icon li').hover(function(){
+        $(this).css("background-color", "#dd2f31");
+        }, function(){
+        $(this).css("background-color", "white");
+      });
+});
 
 
