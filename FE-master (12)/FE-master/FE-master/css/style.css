@@ -416,9 +416,11 @@ a {
   position: relative;
   margin-bottom: 12px;
 }
-
+.product #list-product .product-item-wrap .list-icon li:hover {
+  background: #ffffff;
+}
 .product #list-product .product-item-wrap .list-icon li:hover a i {
-  color: #777777;
+  color: #ffffff;
 }
 .product #list-product .product-item-wrap .list-icon li a i {
   position: absolute;
