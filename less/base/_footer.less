@@ -71,17 +71,22 @@ footer {
         margin: 55px auto 37px;
         display: flex;
         flex-wrap: wrap;
+        .responsive(1160px,{
+          margin: 57px -15px 37px;
+          font-size: 14px;
+        });
         .responsive(1024px,{
           margin: 57px -15px 37px;
-          font-size: 16px;
+          font-size: 14px;
         });
         .responsive(768px,{
-          margin: -15px;
-          font-size: 16px;
+          margin: -7px;
+          font-size: 14px;
+          margin-bottom: 10px
         });
         .responsive(575px,{
           margin: -15px;
-          font-size: 16px;
+          font-size: 13px;
         });
       }
       .col-3 {
@@ -140,11 +145,16 @@ footer {
         list-style: none;
       }
     .style-hr {
+      .responsive(1160px,{
+        margin: -15px;
+        font-size: 14px;
+      });
         border: 1px solid #434343;
         max-width: 1170px;
         width: 100%;
         margin: auto;
         border-width: 1px;
+        
     }
     .footer__content{
         margin: 57px auto 37px;
@@ -207,4 +217,8 @@ footer {
              color: #777777;
         }
     }
+    .responsive(768px,{
+      margin: -15px;
+      font-size: 14px;
+    });
 }
