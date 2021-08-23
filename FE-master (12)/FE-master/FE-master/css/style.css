@@ -589,7 +589,7 @@ footer {
 }
 @media only screen and (max-width: 768px) {
   .footer .row {
-    margin: 0;
+    margin: 0 -15px;
     font-size: 16px;
   }
 }
