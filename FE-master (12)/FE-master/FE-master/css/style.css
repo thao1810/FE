@@ -402,6 +402,7 @@ a {
   font-size: 14px;
 }
 .product #list-product .product-item-wrap .list-icon {
+  display: none;
   position: absolute;
   top: 5.7%;
   right: 11%;
@@ -417,7 +418,7 @@ a {
   margin-bottom: 12px;
 }
 .product #list-product .product-item-wrap .list-icon li:hover {
-  
+  background-color: #dd2f31;
 }
 .product #list-product .product-item-wrap .list-icon li:hover a i {
   color: #777777;
