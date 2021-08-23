@@ -575,13 +575,14 @@ footer {
   color: #fff;
 }
 .footer .container {
+  padding: 0 15px;:
   max-width: 1200px;
   width: 100%;
   box-sizing: border-box;
   margin: auto;
 }
 .footer .row {
-  margin: 55px 0px 37px;
+  margin: 55px -15px 37px;
   display: flex;
   flex-wrap: wrap;
 }
