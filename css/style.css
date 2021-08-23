@@ -607,6 +607,12 @@ footer {
     font-size: 16px;
   }
 }
+@media only screen and (max-width: 575px) {
+  .footer .row {
+    margin: -15px;
+    font-size: 16px;
+  }
+}
 .footer .col-3 {
   width: calc((3 / 12) * 100%);
   box-sizing: border-box;
